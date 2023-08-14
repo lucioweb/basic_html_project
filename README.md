@@ -1,4 +1,5 @@
 # PROJETO HTML BÁSICO
+Apresentar um projeto HTML ao final da UC-II
 ## ESTRUTURA
 O projeto HTML BÁSICO é composto de 4 pastas (css, img, js e shareds), 5 arquivos ".html" (about.html, contato.html, gallery.html, index.html. login.html) e 1 arquivo de ajuda (README.md). O projeto ficou com a estrutura apresentada abaixo:
 
@@ -29,5 +30,3 @@ Cada página possui uma estrutura HTML5 básica composta de um cabeçalho e de u
 - Javascript
 - Markdown -(README-md)
 - VS Code como editor de código
-
-## ESTRUTURA DO PROJETO
