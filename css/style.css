@@ -12,6 +12,10 @@ body {
 
 }
 
+main {
+    padding: 50px;
+}
+
 h1,
 h2 {
     text-align: left;
@@ -57,10 +61,6 @@ li a:hover:not(.active) {
 
 /* FIM NAVBAR */
 
-main {
-    padding: 50px;
-}
-
 
 /* INÍCIO DO FOOTER */
 footer {
@@ -74,6 +74,6 @@ footer {
     bottom: 0;
     width: 100%;
 }
-/* INÍCIO DO FOOTER */
+/* FINAL DO FOOTER */
 
 
