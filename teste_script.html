@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste Script</title>
+    <!-- LINK PARA A FOLHA DE ESTILO -->
+    <link rel="stylesheet" href="/css/style.css">
+    <!-- LINK PARA O ARQUIVO DE SCRIPT DO INCLUDE DO NAVBAR -->
+    <script src="/js/navbar.js"></script>
+    <script src="/js/script.js"></script>
+
+    <style>
+        header {
+            background-color: powderblue;
+            padding: 30px;
+            text-align: center;
+            font-size: 25px;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- INCLUDE DO NAVBAR -->
+    <div w3-include-html="/shareds/navbar.html"></div>
+    <header>
+        <h2>Testes</h2>
+    </header>
+
+    <main>
+        <section>
+            <header>
+                <h1>Você está em teste_script.html</h1>
+            </header>
+            <button style="padding: 10px;" type="button" onclick="exercicio_array2();">TESTE SEU SCRIPT</button>
+            <p id="demo"></p>
+        </section>
+    </main>
+
+    <!-- INCLUDE DO FOOTER -->
+    <div w3-include-html="/shareds/footer.html"></div>
+
+    <!-- CHAMADA DA FUNÇÃO DE INCLUDE -->
+    <script>
+        includeHTML();
+    </script>
+</body>
+
+</html>
